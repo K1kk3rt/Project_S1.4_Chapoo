@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LOGIC;
+
 
 namespace Chapoo
 {
@@ -15,6 +17,11 @@ namespace Chapoo
         public Chapoo()
         {
             InitializeComponent();
+        }
+
+        public void btn_testKeuken_Click(object sender, EventArgs e)
+        {
+            KeukenLogic.TestKeukenOverzicht();
         }
     }
 }
